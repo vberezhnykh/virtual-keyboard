@@ -1,0 +1,70 @@
+@import 'normalize.css';
+.body-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.keyboard {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.keyboard__row {
+  width: 1004px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.keyboard__key {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: darkgray;
+  color: whitesmoke;
+}
+.keyboard__key:hover {
+  background-color: lightblue;
+}
+.keyboard__key:active {
+  background-color: green;
+}
+
+.keyboard__key--wide {
+  width: 150px;
+}
+
+.keyboard__key--extra-wide {
+  width: 385px;
+}
+
+.keyboard__key--functional {
+  background-color: rgb(94, 90, 90);
+}
+
+/*# sourceMappingURL=styles.css.map */
